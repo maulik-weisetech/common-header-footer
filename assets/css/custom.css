@@ -1,0 +1,16 @@
+ nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+ }
+ nav li.active > a{
+    font-weight: bold;
+    color: blue;
+}
+
+nav li.active li.active a{
+    color: red;
+  }
